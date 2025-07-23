@@ -25,6 +25,38 @@ body{
     color: #000;
 }
 
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+    margin-top: 100px;
+  gap: 40px;
+}
+
+
+.banner-text h1 {
+  font-size: 4rem;
+  font-weight: 800;
+  font-family: 'Noto Serif', serif;
+}
+
+.banner-text .highlight {
+  color: #f15c22;
+}
+
+.banner-text p {
+  font-size: 1.3rem;
+    font-family: 'Inter', sans-serif;
+  color: rgb(0, 0, 0,50%);
+}
+
+
+
+.banner-image img {
+  width: 570px;
+  height: 355px;
+}
+
 
 @media (max-width: 768px) {
     body {
@@ -39,6 +71,29 @@ body{
   .nav-menu {
     display: none;
   }
+.banner {
+    flex-direction: column;
+    text-align: left;
+    gap: 10px;
+   
+  }
 
-  
+  .banner-image {
+    order: -1;
+  }
+
+  .banner-text h1 {
+    font-size: 2rem;
+  }
+.banner-image img {
+  width: 430px;
+  height: 245px;
+}
+  .banner-text p {
+    font-size: 0.9rem;
+
+  }
+  .banner-text{
+    margin: 0px 0.6rem;
+  }
 }
