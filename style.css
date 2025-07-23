@@ -1,0 +1,44 @@
+body{
+    margin: 3rem 9rem ;
+    background-color: #F5F8FF;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+   font-family:'Inter', sans-serif;
+   font-size: 20px;
+
+}
+.nav-menu-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2.8rem;
+}
+.nav-menu {
+    display: flex;
+    gap: 2.8rem;
+   
+}
+.nav-menu a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+@media (max-width: 768px) {
+    body {
+        margin: 20px;
+    }
+    .navbar {
+        display: flex;
+     justify-content: space-between;
+        align-items: center;
+        
+    }
+  .nav-menu {
+    display: none;
+  }
+
+  
+}
