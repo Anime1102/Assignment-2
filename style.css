@@ -37,7 +37,7 @@ body{
 .banner-text h1 {
   font-size: 4rem;
   font-weight: 800;
-  font-family: 'Noto Serif', serif;
+  font-family: 'Inter', serif;
 }
 
 .banner-text .highlight {
@@ -58,6 +58,71 @@ body{
 }
 
 
+.product { 
+  text-align: center;
+  margin-top: 150px;
+  font-family: 'Inter', sans-serif;
+ 
+}
+
+.product h2 {
+  font-size: 3rem;
+  font-weight: 800;
+  font-family: 'Inter', sans-serif;
+ 
+  
+}
+
+.product .highlight {
+  color: #f15c22;
+}
+
+.product .subtitle {
+  max-width: 600px;
+  margin: 0 auto 40px;
+  color: rgb(0, 0, 0, 50%);
+  font-size: 1rem;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+
+
+
+.product-card img {
+  width: 100%;
+  
+}
+
+.product-card h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 12px;
+}
+
+.product-card .price {
+  font-weight:800;
+  font-size: 1.2rem;
+  margin: 5px 0 15px;
+}
+
+.add-cart {
+  background-color: #f15c22;
+  color: #fff;
+  border: none;
+  padding: 10px 0;
+  width: 100%;
+  font-size: 0.9rem;
+  font-weight: 500;
+  font-size: 16px;
+ 
+}
+
+
 @media (max-width: 768px) {
     body {
         margin: 20px;
@@ -75,6 +140,7 @@ body{
     flex-direction: column;
     text-align: left;
     gap: 10px;
+
    
   }
 
@@ -96,4 +162,20 @@ body{
   .banner-text{
     margin: 0px 0.6rem;
   }
+
+.product {
+    margin-top: 20px;
+  }
+
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .product h2 {
+    font-size: 1.5rem;
+  }
 }
+
+
+
