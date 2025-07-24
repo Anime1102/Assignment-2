@@ -260,6 +260,52 @@ body{
 }
 
 
+.join-section {
+  background-image: url('assets/news-letter-bg.png');
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+  position: relative;
+  margin-top: 150px;
+  padding: 200px 0;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.join-container h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+}
+
+.join-form {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.join-form input {
+ 
+  width: 50%;
+  border: none;
+  padding: 12px;
+}
+
+.join-form button {
+  padding: 12px 20px;
+  background-color: #f15c22;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+
 @media (max-width: 768px) {
     body {
         margin: 20px;
@@ -355,6 +401,49 @@ body{
 .deal-box.large {
   min-height: 150px;
 }
+
+.join-section {
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+  position: relative;
+  padding: 80px 0;
+  margin-top: 50px;
+  
+}
+.join-container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+}
+
+.join-form {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.join-form input {
+ 
+  width: 50%;
+  border: none;
+  padding: 12px;
+}
+
+.join-form button {
+  padding: 12px 20px;
+  background-color: #f15c22;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+  
+
 }
 
 
