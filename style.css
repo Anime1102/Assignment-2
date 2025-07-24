@@ -122,6 +122,67 @@ body{
  
 }
 
+.plant-lover{
+  width: 100%;
+  margin-top: 200px;
+  font-family: 'Inter', sans-serif;
+}
+
+.plant-lover-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  
+}
+.plant-lover-img{
+  position: relative;
+  flex: 1;
+}
+
+.badge {
+  position: absolute;
+  top: -11.25rem;
+  left: 70%;
+  transform: translateX(-50%);
+  width: 400px;
+}
+
+.plant-lover-text {
+  max-width: 800px;
+}
+
+.plant-lover-text h3 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.plant-lover-text ul {
+  list-style-type: disc;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.5rem;
+}
+
+.plant-lover-text li {
+  margin-bottom: 15px;
+  line-height: 1.8;
+}
+
+.spin {
+  animation: spinBadge 3s linear infinite;
+}
+
+@keyframes spinBadge {
+  from {
+    transform: translateX(-50%) rotate(0deg);
+  }
+  to {
+    transform: translateX(-50%) rotate(360deg);
+  }
+}
+
+
 
 @media (max-width: 768px) {
     body {
@@ -174,6 +235,27 @@ body{
   
   .product h2 {
     font-size: 1.5rem;
+  }
+
+
+   .plant-lover-container {
+    flex-direction: column;
+  
+  }
+
+
+
+  .badge {
+    display: none; /* Hide trusted badge */
+  }
+
+  .plant-lover-text h3 {
+
+    font-size: 2rem;
+  }
+
+  .plant-lover-text ul {
+    font-size: 0.95rem;
   }
 }
 

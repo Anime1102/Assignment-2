@@ -107,17 +107,46 @@
       <button class="add-cart">ADD TO CART</button>
     </div>
 
-   
+  </section>
 
-    
+    <section class="plant-lover">
 
-   
+      <div class="plant-lover-container">
+        <div class="plant-lover-img"><img src="assets/flower-store.png" alt="flower-store">
+        <img src="assets/trusted-badge.png" alt="trusted-badge" class="badge spin"></div>
+        <div class="plant-lover-text">
+          <h3>Flower & Plants Lover</h3>
+          <ul>
+        <li>
+          Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.
+        </li>
+        <li>
+          Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.
+        </li>
+        <li>
+          Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.
+        </li>
+      </ul>
+        </div>
+      </div>
 
-   
+    </section>
   </div>
 </section>
 
     </main>
     <footer></footer>
+    
+    <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const buttons = document.querySelectorAll('.add-cart');
+    buttons.forEach(button => {
+      button.addEventListener('click', function () {
+        alert("Flower Added to Cart");
+      });
+    });
+  });
+</script>
+
   </body>
 </html>
